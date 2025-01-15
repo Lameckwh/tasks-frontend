@@ -43,7 +43,7 @@ const Tasks = () => {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
-        <button onClick={addTask}>Add Task</button>
+        <button onClick={addTask}>Add Task1</button>
       </div>
       <ol>
         {tasks.map((task) => (
